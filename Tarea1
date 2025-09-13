@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Hola a todos</title>
+        <style>
+    body {
+      background-color: #85B4FF;
+      font-family: comic, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 90vh;
+      margin: 0;
+    }
+
+    .card {
+      background: white;
+      padding: 2rem 3rem;
+      border-radius: 14px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      text-align: center;
+      transition: transform 0.3s ease-in-out;
+    }
+
+    .card:hover {
+      transform: scale(1.05);
+    }
+
+    h1 {
+      color: #1976d2;
+      margin-bottom: 10px;
+    }
+
+    p {
+      color: #333;
+      font-size: 1.6rem;
+    }
+  </style>
+    </head>
+    <body>
+        <div class="card">
+            <h1> ¡Hola Mundo¿que tal todo?!</h1>
+            <p>Bienvenido a tu primera página ,
+Y b bienvenido a la creación del repositorio,
+Mucho gusto en conocerte .</p>
+        </div>
+    </body>
+</html>
